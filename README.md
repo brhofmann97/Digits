@@ -5,3 +5,5 @@ Once training is complete, you can save your net to a specified filename, and lo
 There is also a simple drawing application using SDL that allows you to draw your own digits and have your net evaluate them.
 The training/net loading portion is command line operated.
 The database is included in the repo, along with the necessary SDL files.
+
+If you are interested specifically in the Neural Net soruce code, that is located in Net.h.
