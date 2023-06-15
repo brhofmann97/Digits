@@ -4,7 +4,6 @@
 #include "Digits.h"
 #include "FileReader.h"
 #include "Net.h"
-#include "Perceptron.h"
 #include "SDL.h"
 
 const int SCREEN_WIDTH = 784;
