@@ -220,7 +220,7 @@ public:
 		getline(inFile, line);
 		outputSize = stoul(line);
 
-		Net rNet(inputSize, outputSize, hiddenLayers, biasVal);
+		Net rNet(inputSize, outputSize, hiddenLayers, 1, biasVal);
 
 		for (size_t i = 0; i < rNet.weights.size(); i++) {
 			for (size_t j = 0; j < rNet.weights[i].size(); j++) {
